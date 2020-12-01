@@ -1,0 +1,22 @@
+body {
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 100px;
+    background: #000;
+}
+p {
+    font-size: 35px;
+    color: coral;
+}
+p span {
+    color: blueviolet;
+    animation: show 1s linear infinite ;
+}
+@keyframes show {
+    from {
+        margin-left: 0;
+    }
+    to {
+        margin-left: 50px;
+    }
+}

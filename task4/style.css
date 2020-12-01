@@ -1,0 +1,25 @@
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 100px;
+    background: turquoise;
+    text-align: center;
+}
+a {
+    font-size: 25px;
+    text-decoration: none;
+    color: deeppink;
+    display: block;
+    max-width: 300px;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid deeppink;
+    transition: all .3s ease;
+}
+a:hover {
+    color: blue;
+    border: 2px solid blue;
+}

@@ -1,0 +1,32 @@
+body {
+  max-width: 700px;
+  margin: 0 auto;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  background: aliceblue;
+}
+h1 {
+  text-align: center;
+  cursor: pointer;
+}
+#trafficLight {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: black;
+}
+#trafficLight2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: black;
+}
+#trafficLight3 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: black;
+}
